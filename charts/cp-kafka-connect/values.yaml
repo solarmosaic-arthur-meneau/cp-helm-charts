@@ -145,3 +145,4 @@ external:
 ingress:
   enabled: false
   className: nginx
+  # host_url: kafka-connect.localdev.me

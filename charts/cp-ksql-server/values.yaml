@@ -83,6 +83,7 @@ external:
 ingress:
   enabled: false
   className: nginx
+  # host_url: ksql.localdev.me
 
 ## Headless mode
 ## ref: https://docs.confluent.io/current/ksql/docs/installation/server-config/index.html
