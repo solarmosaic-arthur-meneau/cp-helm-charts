@@ -80,6 +80,10 @@ external:
   externalTrafficPolicy: Cluster
   port: 8088
 
+ingress:
+  enabled: false
+  className: nginx
+
 ## Headless mode
 ## ref: https://docs.confluent.io/current/ksql/docs/installation/server-config/index.html
 ksql:
