@@ -16,7 +16,7 @@ spec:
       paths:
       - backend:
           service:
-            name: ksql-server
+            name: {{ template "cp-ksql-server.fullname" . }}
             port:
               number: {{ .Values.servicePort }}
         path: /

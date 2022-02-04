@@ -16,7 +16,7 @@ spec:
       paths:
       - backend:
           service:
-            name: kafka-connect
+            name: {{ template "cp-kafka-connect.fullname" . }}
             port:
               number: {{ .Values.servicePort }}
         path: /
